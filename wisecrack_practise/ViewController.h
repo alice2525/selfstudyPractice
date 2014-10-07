@@ -16,11 +16,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *ClassTextChangeButton;
 @property (weak, nonatomic) IBOutlet UIButton *MethodTextChangeButton;
 
+@property (weak, nonatomic) NSString *FreeAccessString;
+
 - (IBAction)PTChangeBtn:(id)sender;
 - (IBAction)CTChangeButton:(id)sender;
 - (IBAction)MTChangeButton:(id)sender;
-
-
-
 @end
-

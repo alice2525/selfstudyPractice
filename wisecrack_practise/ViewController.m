@@ -8,13 +8,12 @@
 
 #import "ViewController.h"
 @interface ViewController ()
-@end
 
+@end
 //どこからでもアクセス出来る「Public変数」のような扱い
 NSString *publicText;
 
 @implementation ViewController
-
 //クラスの宣言内のみで使用出来る「Private変数」の様な扱い
 NSString *ClassInText;
 
@@ -48,3 +47,6 @@ NSString *ClassInText;
     _MethodTextLabel.text = MTText;
 }
 @end
+
+
+
