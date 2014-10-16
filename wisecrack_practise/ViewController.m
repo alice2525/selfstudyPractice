@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ClassMethodExsample.m"
 @interface ViewController ()
 
 @end
@@ -38,6 +39,8 @@ NSString *ClassInText;
     //クラス内で宣言している為、クラス内であればどこからでも使用出来る。
     ClassInText = [NSString stringWithFormat:@"クラステキスト書き換えOK"];
     _ClassTextLabel.text = ClassInText;
+    
+    [WCP_ClassMethod Write];
 }
 
 - (IBAction)MTChangeButton:(id)sender {

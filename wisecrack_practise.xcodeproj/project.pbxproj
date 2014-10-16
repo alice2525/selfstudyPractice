@@ -14,7 +14,7 @@
 		7042B9C219DC0F95003DA834 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7042B9C119DC0F95003DA834 /* Images.xcassets */; };
 		7042B9C519DC0F95003DA834 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7042B9C319DC0F95003DA834 /* LaunchScreen.xib */; };
 		7042B9D119DC0F95003DA834 /* wisecrack_practiseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7042B9D019DC0F95003DA834 /* wisecrack_practiseTests.m */; };
-		70D4F87619E3FB9E00B9C421 /* InstanceVariableClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D4F87519E3FB9E00B9C421 /* InstanceVariableClass.m */; };
+		7091617219E8AF96000241D6 /* ClassMethodExsample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7091617119E8AF96000241D6 /* ClassMethodExsample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		7042B9CA19DC0F95003DA834 /* wisecrack_practiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wisecrack_practiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7042B9CF19DC0F95003DA834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7042B9D019DC0F95003DA834 /* wisecrack_practiseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wisecrack_practiseTests.m; sourceTree = "<group>"; };
-		70D4F87419E3FB9E00B9C421 /* InstanceVariableClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceVariableClass.h; sourceTree = "<group>"; };
-		70D4F87519E3FB9E00B9C421 /* InstanceVariableClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstanceVariableClass.m; sourceTree = "<group>"; };
+		7091617019E8AF3F000241D6 /* ClassMethodExsample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassMethodExsample.h; sourceTree = "<group>"; };
+		7091617119E8AF96000241D6 /* ClassMethodExsample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassMethodExsample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,6 @@
 		7042B9B319DC0F95003DA834 /* wisecrack_practise */ = {
 			isa = PBXGroup;
 			children = (
-				70D4F87419E3FB9E00B9C421 /* InstanceVariableClass.h */,
-				70D4F87519E3FB9E00B9C421 /* InstanceVariableClass.m */,
 				7042B9B819DC0F95003DA834 /* AppDelegate.h */,
 				7042B9B919DC0F95003DA834 /* AppDelegate.m */,
 				7042B9BB19DC0F95003DA834 /* ViewController.h */,
@@ -94,6 +92,8 @@
 				7042B9C119DC0F95003DA834 /* Images.xcassets */,
 				7042B9C319DC0F95003DA834 /* LaunchScreen.xib */,
 				7042B9B419DC0F95003DA834 /* Supporting Files */,
+				7091617019E8AF3F000241D6 /* ClassMethodExsample.h */,
+				7091617119E8AF96000241D6 /* ClassMethodExsample.m */,
 			);
 			path = wisecrack_practise;
 			sourceTree = "<group>";
@@ -226,8 +226,8 @@
 			files = (
 				7042B9BD19DC0F95003DA834 /* ViewController.m in Sources */,
 				7042B9BA19DC0F95003DA834 /* AppDelegate.m in Sources */,
+				7091617219E8AF96000241D6 /* ClassMethodExsample.m in Sources */,
 				7042B9B719DC0F95003DA834 /* main.m in Sources */,
-				70D4F87619E3FB9E00B9C421 /* InstanceVariableClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
